@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="left-down" width="50" height="50" tilewidth="64" tileheight="64">
+ <tileset firstgid="1" name="floor" tilewidth="64" tileheight="64">
+  <image source="floor.png" width="512" height="1024"/>
+ </tileset>
+ <tileset firstgid="129" name="floor_up" tilewidth="64" tileheight="64">
+  <image source="floor_up.png" width="640" height="960"/>
+ </tileset>
+ <tileset firstgid="279" name="dynamic" tilewidth="64" tileheight="64">
+  <image source="dynamic.png" width="1600" height="1920"/>
+ </tileset>
+ <layer name="floor_down" width="50" height="50">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3PwQmAMBAAsMOFiohY2/338r4+hYMi5JEB0iKiAQAALz2dxe4FjyNtxS4PDw8PDw8PDw8PDw8PD49PZtqLjQUPAAD4gwfun/q2ECcAAA==
+  </data>
+ </layer>
+ <layer name="floor_up" width="50" height="50">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+2YYQsDIQiG7//DWGz94O0+BCNqKb6mWQ/EwRnmq54HXVdMsnUABxHU+o32ofzsSOTceYp5Ziy9s7jvD2vipZ7oOLj+vORhBrl6Hng8FX0nRd81t47Hd73B62WgQwuqjn/fUm3r7fWgA0FLB2XWUPYUHTNmV+R6jKDm15MOSU/UOjT6q/jcua+oWOqgzOs8sBfSwI7Esh6o+X6zWl/t+D+X8JsvDzoQ36cHHQh6OjRmGFcHJ4bo9ZDSyiVKR8t3GtiReKmHVKcXHQjQdwxlRULaL+c+Lw4zaumlX6zv/jViWOXsCHDyp51r61pan384ROIDmFKEKxAnAAA=
+  </data>
+ </layer>
+ <layer name="wall" width="50" height="50" visible="0">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+2YyUrEQBRFy0474bR0Stsq7fADNgjqokHd2SC4EtSVv+H3OovT2iNUoAhm7LKSCu/ApSrQr/JubjopopQgCILQNLpjVXdQjmVP+y5KHX3muWey+q7bfVfH6zwKWdc3j98gUKod2OmnCMf01tfaj83jx9H8IMVPiIeOAx89elhES3q8QkOt89g8fhzNL4z63zE0fO3hoe/Ax+0//BcGxppneBg68HGnz/nJ+IW+Lfi6rOA5EeUx11JqHi20Rl9zUIGPKI9t+t9BuxZ8VJmHTarMwyY+5XFC3WlCrU95XFN3k1DrUx5p+JRHGpJHeSSPZHzI457fP6BH9ISe0Qt6RW96LRd5vLPv+DD2HkXzaFEboDYaRxNoEk2hab2uizxm2EPPGvvoonms0muIOmgNddE62kCb2oeLPHp42DJ8/JVH2rs6Dy7yOMTDUUYeae/qPMjzqjxNeX/EvzPYGFca9v1LEARBEARBEGzxA3mS+1YQJwAA
+  </data>
+ </layer>
+ <objectgroup name="grass" visible="0"/>
+ <objectgroup name="collision" visible="0">
+  <object x="-112" y="-288" width="3728" height="1240"/>
+  <object x="2264" y="8" width="936" height="3192"/>
+  <object x="72" y="2272" width="2736" height="920"/>
+  <object x="-40" y="776" width="960" height="2048"/>
+  <object x="1058" y="1187" width="129" height="35"/>
+  <object x="1681" y="1900" width="483" height="82"/>
+  <object x="1848" y="1453" width="30" height="19"/>
+  <object x="1271" y="2092" width="26" height="17"/>
+  <object x="1849.48" y="1454.23" width="26" height="17"/>
+ </objectgroup>
+ <objectgroup name="dynamic" visible="0">
+  <object name="sc_wall01_001.png" x="1124" y="935"/>
+  <object name="sc_wall01_010.png" x="1248" y="934"/>
+  <object name="sc_wall01_010.png" x="1312" y="936"/>
+  <object name="sc_wall01_014.png" x="1377" y="933"/>
+  <object name="sc_wall01_010.png" x="1441" y="929"/>
+  <object name="sc_wall01_010.png" x="1503" y="931"/>
+  <object name="sc_wall01_014.png" x="1568" y="931"/>
+  <object name="sc_wall01_014.png" x="1631" y="929"/>
+  <object name="sc_wall01_010.png" x="1695" y="934"/>
+  <object name="sc_wall01_010.png" x="1760" y="931"/>
+  <object name="sc_wall01_014.png" x="1821" y="930"/>
+  <object name="sc_wall01_010.png" x="1889" y="932"/>
+  <object name="sc_wall01_010.png" x="1951" y="933"/>
+  <object name="sc_wall01_002.png" x="2081" y="933"/>
+  <object name="sc_wall01_010.png" x="2019" y="931"/>
+  <object name="sc_wall01_010.png" x="1180" y="933"/>
+  <object name="wall_02_002.png" x="991" y="929"/>
+  <object name="wall_02_007.png" x="920" y="929"/>
+  <object name="wall_02_002.png" x="2141" y="935"/>
+  <object name="wall_02_006.png" x="2273" y="932"/>
+  <object name="wall_02_002.png" x="2136" y="2270"/>
+  <object name="wall_02_005.png" x="2276" y="2274"/>
+  <object name="wall_02_002.png" x="2016" y="2277"/>
+  <object name="wall_02_002.png" x="1887" y="2274"/>
+  <object name="wall_02_002.png" x="1756" y="2273"/>
+  <object name="wall_02_002.png" x="1630" y="2276"/>
+  <object name="wall_02_002.png" x="1499" y="2274"/>
+  <object name="wall_02_002.png" x="1380" y="2275"/>
+  <object name="wall_02_002.png" x="1246" y="2274"/>
+  <object name="wall_02_002.png" x="1117" y="2275"/>
+  <object name="wall_02_002.png" x="992" y="2271"/>
+  <object name="wall_02_006_a.png" x="921" y="2269"/>
+  <object name="wall_02_004.png" x="919" y="2211"/>
+  <object name="wall_02_004.png" x="917" y="2082"/>
+  <object name="wall_02_004.png" x="922" y="1952"/>
+  <object name="wall_02_004.png" x="919" y="1827"/>
+  <object name="wall_02_004.png" x="926" y="1698"/>
+  <object name="wall_02_004.png" x="925" y="1569"/>
+  <object name="wall_02_004.png" x="930" y="1441"/>
+  <object name="wall_02_004.png" x="925" y="1309"/>
+  <object name="wall_02_004.png" x="926" y="1184"/>
+  <object name="wall_02_004.png" x="926" y="1058"/>
+  <object name="wall_02_003.png" x="2273" y="1057"/>
+  <object name="wall_02_003.png" x="2274" y="1186"/>
+  <object name="wall_02_003.png" x="2268" y="1310"/>
+  <object name="wall_02_003.png" x="2266" y="1435"/>
+  <object name="wall_02_003.png" x="2268" y="1567"/>
+  <object name="wall_02_003.png" x="2270" y="1695"/>
+  <object name="wall_02_003.png" x="2270" y="1827"/>
+  <object name="wall_02_003.png" x="2272" y="1952"/>
+  <object name="wall_02_003.png" x="2271" y="2076"/>
+  <object name="wall_02_003.png" x="2268" y="2208"/>
+  <object name="fujian_030.png" x="666.667" y="2084.85"/>
+  <object name="fujian_031.png" x="2466.67" y="996.97"/>
+  <object name="fujian_048.png" x="1245.45" y="739.394"/>
+  <object name="fujian_048.png" x="1378.79" y="548.485"/>
+  <object name="fujian_048.png" x="1627.27" y="669.697"/>
+  <object name="fujian_048.png" x="1893.94" y="609.091"/>
+  <object name="fujian_048.png" x="1884.85" y="796.97"/>
+  <object name="fujian_049.png" x="1054.55" y="675.758"/>
+  <object name="fujian_049.png" x="1633.33" y="484.848"/>
+  <object name="fujian_049.png" x="2145.45" y="675.758"/>
+  <object name="fujian_049.png" x="1375.76" y="793.939"/>
+  <object name="fujian_019.png" x="1248.48" y="2075.76"/>
+  <object name="fujian_019.png" x="1830.3" y="1442.42"/>
+  <object name="fujian_029.png" x="1051.52" y="1184.85"/>
+  <object name="machine_001.png" x="1693.94" y="1954.55"/>
+ </objectgroup>
+ <objectgroup name="birth" visible="0">
+  <object x="1265" y="1207" width="30" height="35"/>
+  <object x="1913" y="1205" width="31" height="31"/>
+  <object x="1273" y="1595" width="30" height="35"/>
+  <object x="1272" y="1976" width="30" height="35"/>
+  <object x="1623" y="1981" width="30" height="35"/>
+  <object x="1914" y="1989" width="30" height="35"/>
+  <object x="1911" y="1596" width="30" height="35"/>
+  <object x="1611" y="1600" width="30" height="35"/>
+  <object x="1607" y="1208" width="30" height="35"/>
+ </objectgroup>
+ <objectgroup name="gun" visible="0">
+  <object x="1330" y="970" width="30" height="35"/>
+  <object x="1925" y="970" width="31" height="31"/>
+  <object x="1325" y="2124.67" width="30" height="35"/>
+  <object x="1600" y="2124.67" width="30" height="35"/>
+  <object x="1925" y="2124.67" width="30" height="35"/>
+  <object x="1600" y="970" width="30" height="35"/>
+  <object x="1050" y="1282" width="30" height="35"/>
+  <object x="1050" y="1597" width="30" height="35"/>
+  <object x="1050" y="1929" width="30" height="35"/>
+  <object x="2180" y="1936" width="30" height="35"/>
+  <object x="2180" y="1604" width="30" height="35"/>
+  <object x="2180" y="1289" width="30" height="35"/>
+ </objectgroup>
+</map>

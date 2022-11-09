@@ -1,0 +1,36 @@
+{
+  "ver": "2.3.4",
+  "uuid": "59183f13-7cc3-479a-8044-42931113cf66",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 54,
+  "height": 29,
+  "platformSettings": {},
+  "subMetas": {
+    "shop_btn_duihuang": {
+      "ver": "1.0.4",
+      "uuid": "65d23b5f-8be3-4d53-9c14-6d4b9cf4502a",
+      "rawTextureUuid": "59183f13-7cc3-479a-8044-42931113cf66",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": -1,
+      "offsetY": 0,
+      "trimX": 2,
+      "trimY": 0,
+      "width": 48,
+      "height": 29,
+      "rawWidth": 54,
+      "rawHeight": 29,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

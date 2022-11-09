@@ -1,0 +1,97 @@
+{
+  "cocos-analytics": {
+    "appID": "13798",
+    "appSecret": "959b3ac0037d0f3c2fdce94f8421a9b2",
+    "channel": "",
+    "enable": false,
+    "version": ""
+  },
+  "collision-matrix": [
+    [
+      false
+    ],
+    [
+      false,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
+      true,
+      true,
+      false
+    ],
+    [
+      false,
+      false,
+      true,
+      false
+    ],
+    [
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  ],
+  "design-resolution-height": 640,
+  "design-resolution-width": 1136,
+  "excluded-modules": [
+    "DragonBones",
+    "Native Socket",
+    "PageView",
+    "PageViewIndicator",
+    "ParticleSystem",
+    "Slider",
+    "ScrollBar",
+    "StudioComponent",
+    "Toggle",
+    "VideoPlayer",
+    "WebView",
+    "3D",
+    "3D Primitive",
+    "3D Physics/cannon.js",
+    "3D Physics/Builtin",
+    "3D Particle"
+  ],
+  "fit-height": true,
+  "fit-width": false,
+  "group-list": [
+    "default",
+    "Map",
+    "Collider",
+    "Player",
+    "UI",
+    "MipMap"
+  ],
+  "simulator-orientation": true,
+  "simulator-resolution": {
+    "height": 640,
+    "width": 1136
+  },
+  "use-customize-simulator": true,
+  "use-project-simulator-setting": true,
+  "last-module-event-record-time": 1592982591007,
+  "assets-sort-type": "name",
+  "facebook": {
+    "appID": "",
+    "audience": {
+      "enable": false
+    },
+    "enable": false,
+    "live": {
+      "enable": false
+    }
+  },
+  "start-scene": "177c8ce7-7d64-49ef-bc59-05008be7115c"
+}

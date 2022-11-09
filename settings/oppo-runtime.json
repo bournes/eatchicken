@@ -1,0 +1,19 @@
+{
+  "package": "com.nyzy.qmcjqs.vivominigame",
+  "name": "全民刺激枪神",
+  "icon": "C:\\Users\\10757\\Desktop\\EatChicken_All\\EatChicken_API_221\\assets\\logo.png",
+  "versionName": "1.0.0",
+  "versionCode": "1",
+  "minPlatformVersion": "1011",
+  "deviceOrientation": "landscape",
+  "logLevel": "log",
+  "tinyPackageMode": true,
+  "tinyPackageServer": "https://ningyi-100003922-1257044218.cos.ap-chengdu.myqcloud.com",
+  "useDebugKey": true,
+  "privatePath": "",
+  "certificatePath": "",
+  "disabledMode": "disabled is-disabled",
+  "npmPath": "",
+  "showNpmPath": false,
+  "packFirstScreenRes": true
+}

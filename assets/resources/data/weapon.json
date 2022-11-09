@@ -1,0 +1,67 @@
+{
+    "WeaponData": [{
+            "weaponid": 1002,
+            "name": "霰弹枪",
+            "clipnum": 8,
+            "skinname": "1002",
+            "speed": 850,
+            "range": 350,
+            "shootdelay": 1.5,
+            "reloaddelay": 1.5,
+            "power": 15
+        },
+        {
+            "weaponid": 1003,
+            "name": "机关枪",
+            "clipnum": 30,
+            "skinname": "1003",
+            "speed": 1400,
+            "range": 340,
+            "shootdelay": 0.2,
+            "reloaddelay": 1.5,
+            "power": 5
+        },
+        {
+            "weaponid": 1005,
+            "name": "火箭筒",
+            "clipnum": 5,
+            "skinname": "1005",
+            "speed": 1600,
+            "range": 320,
+            "shootdelay": 2.0,
+            "reloaddelay": 1.5,
+            "power": 25
+        },
+        {
+            "weaponid": 1102,
+            "name": "手枪",
+            "clipnum": 15,
+            "skinname": "1102",
+            "speed": 850,
+            "range": 450,
+            "shootdelay": 1.0,
+            "reloaddelay": 1.5,
+            "power": 8
+        }, {
+            "weaponid": 1103,
+            "name": "AK47",
+            "clipnum": 35,
+            "skinname": "1103",
+            "speed": 1400,
+            "range": 340,
+            "shootdelay": 0.3,
+            "reloaddelay": 1.5,
+            "power": 5
+        }, {
+            "weaponid": 1105,
+            "name": "Kar98K",
+            "clipnum": 15,
+            "skinname": "1105",
+            "speed": 1600,
+            "range": 320,
+            "shootdelay": 1.5,
+            "reloaddelay": 1.5,
+            "power": 20
+        }
+    ]
+}
